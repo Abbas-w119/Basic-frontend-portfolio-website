@@ -1,0 +1,95 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    background-color: rgb(216, 230, 224);
+    font-size: large;
+}
+header{
+    background-color: rgb(104, 113, 110);
+    padding: 5px;
+    text-align: center;
+}
+.card{
+    background-color: rgb(104, 113, 110);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+.skills{
+    margin-top: 40px;
+    text-align: center;
+}
+.card-container{
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.pro{
+    background-color: rgb(104, 113, 110);
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+}
+.pro-card{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+}
+.project{
+    margin-top: 40px;
+    text-align: center;
+}
+.pro:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+.img-card{
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.img-card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.image{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.form-label{
+    background-color: rgb(104, 113, 110);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+
+.form{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.form-container{
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(104, 113, 110);
+}
