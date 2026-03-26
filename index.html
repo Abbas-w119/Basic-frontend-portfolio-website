@@ -85,7 +85,7 @@
     <section class="form">
         <h3>Reach Me</h3>
         <div class="form-container">
-            <form action="post">
+            <form onsubmit="return showMessage()">
                 <div class="form-label">
                 <label for="name">Name:</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
@@ -99,7 +99,7 @@
                     <input type="email" id="email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-label">
-                    <button onclick="showMessage()" style="background-color: rgb(116, 179, 241);" class="submit-btn" type="submit"><b>Submit</b></button>
+                    <button onsubmit="showMessage()" style="background-color: rgb(116, 179, 241);" class="submit-btn" type="submit"><b>Submit</b></button>
                 </div>
             </form>
         </div>
