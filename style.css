@@ -87,6 +87,27 @@ header{
     gap: 15px;
 }
 
+.nav-container{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(131, 139, 120);
+    
+}
+
+.nav{
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dark{
+    background-color: rgb(18, 7, 61);
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 footer{
     text-align: center;
