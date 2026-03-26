@@ -114,3 +114,14 @@ footer{
     padding: 15px;
     background-color: rgb(104, 113, 110);
 }
+
+.submit-btn{
+    background-color: rgb(231, 231, 18);
+    transition: background 0.3s;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+.submit-btn:hover{
+    background-color: rgb(24, 190, 65);
+}
